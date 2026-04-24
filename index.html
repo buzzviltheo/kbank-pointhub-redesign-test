@@ -2,170 +2,310 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>케이뱅크 포인트허브 개편안 · PM 제안</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>케이뱅크 용돈 벌기</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="device-wrap">
+<div class="phone-fullscreen">
 
-  <div class="idx-hero">
-    <h1>케이뱅크 포인트허브 지면 개편안</h1>
-    <p class="sub">
-      매출 87%가 display 2개 unit에 집중된 구조를 <b>유저 참여 깊이 기반</b> IA로 재구성.<br/>
-      데이터 기준 TOP 6 개선 포인트를 UI 목업에 반영했습니다.
-    </p>
-    <div class="meta">
-      <span>📅 분석기간: 2026-03-25 ~ 2026-04-24 (30일)</span>
-      <span>👤 제안자: theo.park (PM)</span>
-      <span>📊 기준 매출: ₩661,662,000</span>
-    </div>
+  <div class="phone-status">
+    <div class="left">9:41</div>
+    <div class="right">●●●● <span style="margin:0 4px;">📶</span> 🔋</div>
   </div>
 
-  <div class="idx-nav">
-    <a href="as-is.html" target="_blank">
-      <div class="ic">📱</div>
+  <header class="page-head">
+    <button class="icon-btn">〈</button>
+    <div class="icons">
+      <button class="icon-btn">↑</button>
+      <button class="icon-btn">⋯</button>
+    </div>
+  </header>
+
+  <section class="monthly">
+    <div class="title">이번 달 받은 용돈 리워드</div>
+    <div class="amount">43,520원 <span class="chev">›</span></div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-card">
+      <div class="left">
+        <div class="emoji">🎁</div>
+        <div class="txt">
+          <div class="t1">방금 +10원 적립 완료</div>
+          <div class="t2">이어서 <em style="color:#DC2626;font-style:normal">미션 5개로 +380원 더</em></div>
+        </div>
+      </div>
+      <button class="pill-btn">이어받기 ›</button>
+    </div>
+    <div class="mini-row">
+      <div class="mini-chip"><span class="chip-emoji">💰</span>매일 누르기 <span class="chip-val">오늘 완료</span></div>
+      <div class="mini-chip"><span class="chip-emoji">🚶</span>방문 미션 <span class="chip-val">2/5</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
       <div>
-        <div class="t">AS-IS 목업 보기</div>
-        <div class="s">현재 라이브 지면 구조 재현</div>
+        <div class="section-title">오늘의 용돈받기</div>
+        <div class="section-sub">참여하면 다음 광고로 자동 이동</div>
       </div>
-    </a>
-    <a href="to-be.html" class="tobe" target="_blank">
-      <div class="ic">✨</div>
+      <div class="section-link">전체보기 ›</div>
+    </div>
+    <div class="carousel">
+      <div class="item variant-1">
+        <div class="left">
+          <div class="brand"><span class="logo"></span>bank</div>
+          <div class="txt-main">케이뱅크 가입하고<br/>커피 쿠폰 받기</div>
+          <div class="txt-sub">5번 클릭하면 끝!</div>
+        </div>
+        <div class="illust">🏦</div>
+        <div class="price">2원</div>
+      </div>
+      <div class="item variant-2">
+        <div class="left">
+          <div class="brand"><span class="logo"></span>shopping</div>
+          <div class="txt-main">오늘의 특가<br/>지금 바로 확인</div>
+          <div class="txt-sub">페이지 방문하면</div>
+        </div>
+        <div class="illust">🛍️</div>
+        <div class="price">3원</div>
+      </div>
+      <div class="item variant-3">
+        <div class="left">
+          <div class="brand"><span class="logo"></span>travel</div>
+          <div class="txt-main">해외여행 최저가<br/>여행 플래너 확인</div>
+          <div class="txt-sub">페이지 방문하면</div>
+        </div>
+        <div class="illust">✈️</div>
+        <div class="price">2원</div>
+      </div>
+    </div>
+    <div class="carousel-dots"><span class="on"></span><span></span><span></span></div>
+  </section>
+
+  <section class="section" style="border-top:8px solid #F3F4F6;">
+    <div class="section-header">
       <div>
-        <div class="t">TO-BE 목업 보기</div>
-        <div class="s">개선안 반영 화면 · 6개 change 표시</div>
+        <div class="section-title">🎯 나에게 딱 맞는 미션 <span class="gain-badge">AI</span></div>
+        <div class="section-sub">내 관심사 기반 추천</div>
       </div>
-    </a>
+      <div class="section-link">더보기 ›</div>
+    </div>
+    <div class="mission-list" style="padding:0;">
+      <div class="mission variant-samsung">
+        <div class="thumb">📱</div>
+        <div class="body">
+          <div class="t1"><span class="tag hot">추천</span>모바일 게임 설치</div>
+          <div class="t2">앱 설치하면 · 30초 소요</div>
+        </div>
+        <div class="reward cta-action">2,400원</div>
+      </div>
+      <div class="mission variant-line">
+        <div class="thumb">💳</div>
+        <div class="body">
+          <div class="t1"><span class="tag hot">인기</span>신용카드 발급</div>
+          <div class="t2">카드 신청하면 · 1분 소요</div>
+        </div>
+        <div class="reward cta-action">18,000원</div>
+      </div>
+      <div class="mission variant-kakao">
+        <div class="thumb">🎮</div>
+        <div class="body">
+          <div class="t1">멀티미션 · 매일 +50원</div>
+          <div class="t2">6일 남음 · 현재 150원 / 총 1,000원</div>
+        </div>
+        <div class="reward">진행중</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="playhub">
+    <div class="section-header" style="margin-bottom:12px;">
+      <div>
+        <div class="section-title">🎲 플레이 허브</div>
+        <div class="section-sub">게임 완료 후 추가 미션 1개</div>
+      </div>
+      <div class="section-link">전체보기 ›</div>
+    </div>
+    <div class="playhub-card">
+      <div class="lead">
+        <div>
+          <div class="t">게임하고 용돈 받기</div>
+          <div class="sub">오늘의 쿠폰 3개 남음</div>
+        </div>
+      </div>
+      <div class="playhub-games">
+        <div class="g">
+          <div class="ico">🎯</div>
+          <div class="n">3.21초 맞추기</div>
+          <div class="r">+50원</div>
+        </div>
+        <div class="g">
+          <div class="ico">🎰</div>
+          <div class="n">룰렛 돌리기</div>
+          <div class="r">+30원</div>
+        </div>
+        <div class="g">
+          <div class="ico">🎟️</div>
+          <div class="n">복권 긁기</div>
+          <div class="r">+100원</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight-total">
+    <div class="h1">딱 맞는 용돈벌이</div>
+    <div class="h2">총 <em>14,928원</em> 받기<span class="chev">›</span></div>
+  </section>
+
+  <div class="tabs">
+    <button class="tab active">🔥 HOT 미션</button>
+    <button class="tab">SNS 미션</button>
+    <button class="tab">콘텐츠</button>
+    <button class="tab">금융 꿀팁</button>
   </div>
 
-  <div class="idx-findings">
-    <h2>데이터 진단 요약</h2>
-    <p class="caption">케이뱅크 Web_OP 매체 (app_id: 445312680648885) · 일 평균 ImpDAU 30.4만</p>
-
-    <div class="stat-grid">
-      <div class="stat">
-        <div class="label">총 매출 (30d)</div>
-        <div class="val">6.6억원</div>
-        <div class="delta">eCPM 2,837원 (업계 1위)</div>
+  <div class="mission-list">
+    <div class="mission variant-samsung">
+      <div class="thumb">🎮</div>
+      <div class="body">
+        <div class="t1"><span class="tag hot">NEW</span>라이즈 오브 킹덤즈</div>
+        <div class="t2">앱 설치하면 · 30초 소요</div>
       </div>
-      <div class="stat">
-        <div class="label">display 매출 비중</div>
-        <div class="val">87.2%</div>
-        <div class="delta bad">2개 unit 집중</div>
+      <div class="reward cta-action">3,800원</div>
+    </div>
+    <div class="mission variant-kakao">
+      <div class="thumb">💳</div>
+      <div class="body">
+        <div class="t1">현대카드 M Boost</div>
+        <div class="t2">카드 신청하면</div>
       </div>
-      <div class="stat">
-        <div class="label">action_heavy 매출</div>
-        <div class="val">10.7%</div>
-        <div class="delta bad">CVR은 58.9%로 최고</div>
+      <div class="reward cta-action">22,000원</div>
+    </div>
+    <div class="mission variant-line">
+      <div class="thumb">🍔</div>
+      <div class="body">
+        <div class="t1">요기요 첫 주문</div>
+        <div class="t2">주문 완료하면 · 쿠폰 포함</div>
       </div>
-      <div class="stat">
-        <div class="label">유휴 노출 (매출 無)</div>
-        <div class="val">33.8M</div>
-        <div class="delta bad">PLAYHUB + 콘텐츠</div>
+      <div class="reward cta-action">5,500원</div>
+    </div>
+    <div class="mission soon">
+      <div class="thumb">📘</div>
+      <div class="body">
+        <div class="t1">삼성SDI 페이스북 좋아요</div>
+        <div class="t2">페이스북 좋아요하면</div>
       </div>
-    </div>
-
-    <h3 style="font-size:15px; font-weight:800; margin:8px 0 12px;">🔥 UI로 공략 가능한 약점 TOP 6</h3>
-
-    <div class="prob">
-      <h4>#1 최고 매출 unit이 화면에서 한 장짜리</h4>
-      <p>Feed+오늘의용돈이 전체 매출의 62.6%를 만들지만 UI는 단일 카드. 캐러셀 확장만으로도 노출·매출 레버리지 큰 지점.</p>
-    </div>
-    <div class="prob">
-      <h4>#2 eCPM 10,836원 매일버튼이 1회용</h4>
-      <p>Native+매일버튼누르기는 eCPM 1위(전체 unit 평균의 3.8배). CTR 99.8%로 유저가 반드시 누르는 버튼인데, 클릭 직후 세션이 종료돼 후속 매출 機 상실.</p>
-    </div>
-    <div class="prob">
-      <h4>#3 PLAYHUB: 노출 2,191만인데 매출 0원</h4>
-      <p>게임 미션 unit은 ADN lineitem만으로 구성돼 `v_statistics_unit_creative`에 매출이 집계되지 않음. 트래픽 대비 수익화 0%.</p>
-    </div>
-    <div class="prob">
-      <h4>#4 Feed+콘텐츠미션: eCPM 2.82원</h4>
-      <p>노출 1,177만 · CTR 31%로 유저 반응은 높으나 콘텐츠 클릭 후 광고로 이어지는 플로우가 끊김. 단가 없는 트래픽.</p>
-    </div>
-    <div class="prob">
-      <h4>#5 CPA 상단 노출 부재 (매출 비중 10.7%)</h4>
-      <p>유저 CVR 58.9%로 노출만 늘리면 즉시 매출로 연결됨. 현재는 "참여 미션" 탭 안쪽에 리스트화돼 있어 고CVR CPA가 묻힘.</p>
-    </div>
-    <div class="prob">
-      <h4>#6 보험 미션 CVR 6.6% (최저)</h4>
-      <p>카테고리 CTR 낮은 건 정상. 문제는 <b>클릭한 유저조차 전환하지 않는 것</b>. 삼성화재 다이렉트(CVR 3.4%), DB손해(2.6%) 등 하위 광고주가 노출 상위.</p>
+      <div class="reward">1원</div>
     </div>
   </div>
+  <button class="more-btn">HOT 미션 더보기 (23개)</button>
 
-  <div class="idx-changes">
-    <h2>🎨 개편안 Change List</h2>
-
-    <div class="change-item">
-      <div class="n">1</div>
-      <div class="info">
-        <h4>매일버튼 → "이어받기" 오버레이 연결</h4>
-        <p>10원 받은 직후 "이어서 미션 5개로 +380원 더" CTA로 고단가 CPC/CPA로 즉시 전환. 매일버튼 unit의 eCPM 레버리지를 DAU 전체로 확산.</p>
+  <section class="section" style="border-top:8px solid #F3F4F6;">
+    <div class="section-header">
+      <div>
+        <div class="section-title">오늘의 콘텐츠</div>
+        <div class="section-sub">읽고 용돈 + 맞춤 추천</div>
       </div>
-      <div class="impact">매출 +8~12% 예상<br/>(후속 매출 기회 회수)</div>
+      <div class="section-link">더보기 ›</div>
     </div>
-
-    <div class="change-item">
-      <div class="n">2</div>
-      <div class="info">
-        <h4>오늘의 용돈받기 1개 → 3개 캐러셀</h4>
-        <p>Feed+오늘의용돈(매출 62.6%) target fill 기존 10개이나 UI는 1개만 노출. 3개로 확장 + 자동 진행 + 전체보기 접근성 강화.</p>
+    <div class="content-rail" style="padding:0;">
+      <div class="content-card">
+        <div class="illust">📖</div>
+        <div class="body">
+          <div class="t1">아파트아이 · 콘텐츠</div>
+          <div class="t2">30대가 꼭 가입해야 할<br/>절세 금융상품 TOP 5</div>
+          <div class="t3">읽고 100원 + 관련 상품 추천 +최대 15,000원</div>
+        </div>
       </div>
-      <div class="impact">매출 +15~25% 예상<br/>(최고 매출 unit 직접 확장)</div>
-    </div>
-
-    <div class="change-item">
-      <div class="n">3</div>
-      <div class="info">
-        <h4>🎯 AI 맞춤 미션 상단 고정 슬롯</h4>
-        <p>탭 위에 고CVR CPA 3건 고정 노출 ("딱 맞는 미션"). 기존 "참여미션" 탭 안쪽에 묻혀 있던 CPA를 유저가 첫 스크롤에서 바로 만나도록 재배치.</p>
+      <div class="content-card" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7);">
+        <div class="illust" style="background:linear-gradient(135deg,#10B981,#059669);">🚗</div>
+        <div class="body">
+          <div class="t1">현대자동차 · 콘텐츠</div>
+          <div class="t2">전기차 보조금 2026년<br/>최신 변경사항</div>
+          <div class="t3">읽고 100원 + 시승 예약 +5,000원</div>
+        </div>
       </div>
-      <div class="impact">action_heavy 매출 비중<br/>10.7% → 18~22%</div>
     </div>
+  </section>
 
-    <div class="change-item">
-      <div class="n">4</div>
-      <div class="info">
-        <h4>PLAYHUB + Post-game 직영 광고 슬롯</h4>
-        <p>게임 완료 후 고단가 CPA 1건 삽입 ("리워드 인증하러 가기" 오버레이). 기존 ADN 계측 불가 구간을 직영 매출로 전환.</p>
+  <section class="section" style="border-top:8px solid #F3F4F6;">
+    <div class="section-header">
+      <div>
+        <div class="section-title">💼 금융 꿀팁</div>
+        <div class="section-sub">내게 필요한 상담만</div>
       </div>
-      <div class="impact">유휴 2,191만 노출<br/>→ 추정 매출 +3,500만원</div>
+      <div class="section-link">전체보기 ›</div>
     </div>
-
-    <div class="change-item">
-      <div class="n">5</div>
-      <div class="info">
-        <h4>콘텐츠 탭 → Post-content CPA 연계</h4>
-        <p>콘텐츠 완독 후 주제 관련 CPA 2건 추천 (예: 절세 콘텐츠 → 금융상품 / 전기차 콘텐츠 → 시승예약). 단순 CPC에 머물던 콘텐츠 매출 구조 재편.</p>
+    <div class="content-card" style="margin-bottom:12px;background:linear-gradient(135deg,#FEF3C7,#FDE68A);">
+      <div class="illust" style="background:linear-gradient(135deg,#F59E0B,#D97706);">💰</div>
+      <div class="body">
+        <div class="t1">📊 내 보험 진단</div>
+        <div class="t2">1분만에 내 보험 구멍 체크<br/>평균 월 3.2만원 절약</div>
+        <div class="t3">진단 무료 · 가입 의무 없음</div>
       </div>
-      <div class="impact">콘텐츠 unit eCPM<br/>2.82원 → 200~500원</div>
     </div>
-
-    <div class="change-item">
-      <div class="n">6</div>
-      <div class="info">
-        <h4>보험 → "금융 꿀팁" 재포장 + CVR 필터</h4>
-        <p>탭명 리네이밍 ("보험" → "금융 꿀팁"). 상단에 "보험 진단" 공감 콘텐츠 배치. 운영적으로 CVR 하위 광고주 노출 축소 / CVR 상위 우선 배치.</p>
+    <div class="mission-list" style="padding:0;">
+      <div class="mission variant-samsung">
+        <div class="thumb">🛡️</div>
+        <div class="body">
+          <div class="t1">교보생명 상담</div>
+          <div class="t2">상담 신청하면</div>
+        </div>
+        <div class="reward cta-action">3,000원</div>
       </div>
-      <div class="impact">CVR 6.6% → 목표 12%<br/>매출 +700만원 예상</div>
+      <div class="mission variant-samsung">
+        <div class="thumb">🛡️</div>
+        <div class="body">
+          <div class="t1">한화생명 건강보험</div>
+          <div class="t2">상담 예약하면</div>
+        </div>
+        <div class="reward cta-action">2,500원</div>
+      </div>
     </div>
+  </section>
 
-    <h3 style="font-size:15px; font-weight:800; margin-top:24px; padding-top:20px; border-top:1px solid #F3F4F6;">📈 예상 매출 임팩트</h3>
-    <p style="font-size:13px; color:#4B5563; line-height:1.6; margin-top:8px;">
-      6개 change 적용 시 월 매출 <b style="color:#111827;">+1억 ~ 1.6억원</b> (현재 6.6억 대비 +15~24%).<br/>
-      가장 확실한 레버리지는 <b>#2 오늘의 용돈 캐러셀 확장</b>(매출 1위 unit 직접 확장)과 <b>#3 CPA 상단 고정</b>(고CVR 미노출 매출 회수). 이 두 가지는 소재/광고 추가 없이 지면 구조만 바꿔도 매출 상승이 즉시 나타남.
-    </p>
-  </div>
+  <section class="section" style="border-top:8px solid #F3F4F6;">
+    <div class="section-header">
+      <div class="section-title">맞춤 용돈</div>
+      <div class="section-link">● ○ ○ ○</div>
+    </div>
+    <div class="carousel">
+      <div class="item variant-3" style="flex:0 0 42%;">
+        <div class="left">
+          <div class="brand"><span class="logo"></span>추천 미션</div>
+          <div class="txt-main">알리 익스프레스</div>
+        </div>
+        <div class="price" style="background:#16A34A;">2,400원</div>
+      </div>
+      <div class="item variant-2" style="flex:0 0 42%;">
+        <div class="left">
+          <div class="brand"><span class="logo"></span>진행중 멀티</div>
+          <div class="txt-main">고양이 스낵바</div>
+        </div>
+        <div class="price" style="background:#EA580C;">20원(1,000원)</div>
+      </div>
+    </div>
+  </section>
 
-  <div class="idx-foot">
-    <p>
-      <a href="as-is.html">AS-IS 상세</a> ·
-      <a href="to-be.html">TO-BE 상세</a> ·
-      <a href="https://buzzvil.atlassian.net/wiki/spaces/SUP/pages/3283812463/BuzzBenefit+PRD">Confluence PRD</a>
-    </p>
-    <p style="margin-top:8px;">Generated 2026-04-24 · Buzzvil Supply Team · theo.park@buzzvil.com</p>
-  </div>
+  <section class="alert-row">
+    <div class="left">
+      <div class="bell">🔔</div>
+      <div>새 용돈 알림을 신청하세요</div>
+    </div>
+    <div class="toggle"></div>
+  </section>
+
+  <section class="terms">
+    <h4>확인해주세요</h4>
+    <ul>
+      <li>'용돈받기'는 리워드 지급형 광고(미션)에 참여하여, 참여 목적 달성 시 리워드(원금)을 지급받는 서비스입니다.</li>
+      <li>'용돈받기' 서비스는 만 14세 이상의 정상적인 케이뱅크 입출금 고객, Hi teen을 보유한 고객께 한해 이용 가능합니다.</li>
+      <li>일부 광고의 경우 광고주의 사정에 따라 리워드 지급 시 1-2일 소요될 수 있습니다.</li>
+    </ul>
+  </section>
 
 </div>
 </body>
